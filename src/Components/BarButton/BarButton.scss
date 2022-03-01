@@ -1,0 +1,15 @@
+.button-wrapper {
+  border: none;
+  background-color: transparent;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  &.is-frosted {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .60);
+    backdrop-filter: blur(20px); 
+  }
+}

@@ -1,0 +1,18 @@
+.new-todo-wrapper {
+  width: 500px;
+  height: 60px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto 40px;
+  align-items: center;
+  padding: 0 10px;
+  background-color: rgba(255, 255, 255, .60);
+  backdrop-filter: blur(20px); 
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+  >input {
+    border: none;
+    background-color: transparent;
+    font-size: large;
+  }
+}
